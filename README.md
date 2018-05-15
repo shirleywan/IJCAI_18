@@ -44,7 +44,16 @@ python目录下为对数据的预处理，特征合并以及lgb模型预测的py
 
 [1]在特征工程上，还是有很大的欠缺，单模型与前排大佬差距还是很大。而且有大部分特征在lightgbm模型中是无用的，但是没有进行过特征选择。在此过程中，心情还比较浮躁-=-      
 [2]最终只有一个lgb模型，只能在lgb模型中进行融合，导致融合的提升并不大，还要多多学习！       
-    
-    
+
+
+---
+## 复现顺序   
+./python/TestB_pre.py   
+./Features/无先后顺序.py - = -   
+./python/TestB_features_com.py   
+./python/TestB_lgb.py，线上得分：0.14058   
+./python/TestB_lgb_bootstrap.py，线上得分：0.14050   
+
+
 以上！
     
